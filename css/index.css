@@ -3,7 +3,7 @@
 /* General page styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f0f8;
+    background-color: #d9b8f9;
     color: #333;
     margin: 0;
     padding: 0;
@@ -21,10 +21,11 @@ header {
 h1 {
     font-size: 42px;
     font-weight: bold;
-    color: white;
+    color: rgb(123, 32, 150);
     letter-spacing: 2px;
-    text-shadow: 2px 2px 4px #555;
+    text-shadow: 2px 2px 4px #eaceec;
     margin: 10px 0 20px;
+    text-align: center;
 }
 
 /* Navigation menu */
@@ -42,7 +43,7 @@ nav ul {
     gap: 25px;
     padding: 12px;
     margin: 0;
-    background-color: #6c3483;
+    background-color: #dcaeee;
     border-radius: 8px;
 }
 
@@ -62,7 +63,7 @@ section {
     max-width: 800px;
     margin: 30px auto;
     padding: 25px;
-    background-color: white;
+    background-color: rgb(210, 136, 237);
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     scroll-margin-top: 20px;
@@ -72,9 +73,11 @@ section {
 h2 {
     font-size: 28px;
     font-weight: 700;
-    color: #8e44ad;
+    color: rgb(123, 32, 150);
+    text-shadow: 2px 2px 4px #eaceec;
     border-bottom: 3px solid #c084fc;
     padding-bottom: 8px;
+     text-align: center;
 }
 
 /* About section */
@@ -84,6 +87,10 @@ h2 {
 
 #About p {
     font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #f6f2f7;
 }
 
 /* Experience section - Flexbox */
@@ -93,23 +100,29 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+
 }
 
 #Experience li {
-    background-color: #f3e8ff;
+    background-color: #cba9f0;
     padding: 15px;
     border-left: 5px solid #8e44ad;
     border-radius: 8px;
     flex: 1 1 220px;
-}
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+  }
 
 #Experience li strong {
-    color: #6c3483;
+    color: #7b1185;
     font-size: 18px;
+    text-align: center;
 }
 
 #Experience li p {
     margin-bottom: 0;
+    
 }
 
 /* Skills and Projects */
