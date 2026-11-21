@@ -126,7 +126,21 @@ h2 {
 }
 
 /* Skills and Projects */
-#Skills ul,
+#skills ul {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    background-color: #ac4fd1;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
 #Projects ul {
     padding: 0;
     list-style: none;
